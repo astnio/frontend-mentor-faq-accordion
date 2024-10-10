@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Work Sans';
+  src: url('./assets/fonts/WorkSans-VariableFont_wght.ttf');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url('./assets/fonts/WorkSans-Italic-VariableFont_wght.ttf');
+  font-style: italic;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-white: #ffffff;
+  --clr-pink-100: hsl(275, 100%, 97%);
+  --clr-purple-500: hsl(292, 16%, 49%);
+  --clr-purple-800: hsl(292, 42%, 14%);
+
+  font-size: 16px;
+}
+
+html {
+  font-family: 'Work Sans', sans-serif;
+}
