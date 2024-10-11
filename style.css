@@ -117,18 +117,38 @@ hr {
 }
 
 li {
+  position: relative;
   width: 100%;
 
   padding: 0;
   margin: 0;
 }
 
-li > p {
+.card-paragraph {
+  /* visibility: hidden; */
+
   color: var(--clr-purple-500);
   font-size: 16px;
   line-height: 150%;
 
   margin-top: 1rem;
+}
+
+.card-paragraph-wrapper {
+  display: grid;
+  transition: grid-template-rows 0.15s ease-out;
+}
+
+.card-paragraph-wrapper[data-active='true'] {
+  grid-template-rows: 1fr;
+}
+
+.card-paragraph-wrapper[data-active='false'] {
+  grid-template-rows: 0fr;
+}
+
+.card-paragraph-wrapper > div {
+  overflow: hidden;
 }
 
 /*** Buttons ***/
@@ -158,4 +178,8 @@ button.button:hover {
 
 .button > picture {
   margin-left: auto;
+}
+
+.hidden {
+  display: none;
 }
