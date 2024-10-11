@@ -16,6 +16,16 @@
   box-sizing: border-box;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 :root {
   --clr-white: #ffffff;
   --clr-pink-100: hsl(275, 100%, 97%);
@@ -41,8 +51,71 @@ body {
   background-color: var(--clr-pink-100);
 }
 
+h1 {
+  font-size: 56px;
+}
+
 .card {
   width: 100%;
   max-width: 600px;
   min-height: 565px;
+
+  padding: 40px;
+
+  border-radius: 16pt;
+
+  box-shadow: 0 20px 36px rgba(73, 51, 87, 0.1);
+
+  background-color: var(--clr-white);
+}
+
+.card-title {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/*** List Items ***/
+
+ul {
+  width: 100%;
+
+  padding: 0;
+  margin: 0;
+
+  list-style-type: none;
+}
+
+li {
+  width: 100%;
+
+  padding: 0;
+  margin: 0;
+}
+
+/*** Buttons ***/
+
+button.button {
+  display: flex;
+  align-items: center;
+
+  font-size: 18px;
+  font-weight: 600;
+
+  border: none;
+
+  padding: 0;
+  margin: 0;
+
+  background-color: transparent;
+
+  width: 100%;
+}
+
+button.button:hover {
+  cursor: pointer;
+}
+
+.button > picture {
+  margin-left: auto;
 }
