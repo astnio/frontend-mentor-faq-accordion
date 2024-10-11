@@ -180,6 +180,10 @@ button.button:hover {
   margin-left: auto;
 }
 
-.hidden {
+img[data-active='false'] {
   display: none;
+}
+
+img[data-active='true'] {
+  display: block;
 }
