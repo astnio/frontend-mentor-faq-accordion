@@ -36,3 +36,9 @@ body {
 
   min-height: 100vh;
 }
+
+.card {
+  width: 100%;
+  max-width: 600px;
+  min-height: 565px;
+}
