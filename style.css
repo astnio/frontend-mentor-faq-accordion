@@ -54,6 +54,7 @@ body {
   min-height: 100vh;
 
   background-image: url('./assets/images/background-pattern-desktop.svg');
+  background-size: contain;
   background-repeat: no-repeat;
   background-color: var(--clr-pink-100);
 }
