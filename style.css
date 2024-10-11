@@ -94,6 +94,10 @@ main {
   margin-bottom: 32px;
 }
 
+.card-title-picture > img {
+  max-width: 100%;
+}
+
 .card-button-icon {
   width: 30px;
   height: 30px;
