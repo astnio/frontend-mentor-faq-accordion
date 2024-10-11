@@ -124,7 +124,6 @@ li {
 }
 
 li > p {
-  display: none;
   color: var(--clr-purple-500);
   font-size: 16px;
   line-height: 150%;
