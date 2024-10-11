@@ -105,6 +105,14 @@ ul {
   list-style-type: none;
 }
 
+hr {
+  width: 100%;
+  border: none;
+  height: 1px;
+  background-color: var(--clr-pink-100);
+  margin-block: 24px;
+}
+
 li {
   width: 100%;
 
@@ -113,7 +121,12 @@ li {
 }
 
 li > p {
-  display: none;
+  /* display: none; */
+  color: var(--clr-purple-500);
+  font-size: 16px;
+  line-height: 150%;
+
+  margin-top: 1rem;
 }
 
 /*** Buttons ***/
